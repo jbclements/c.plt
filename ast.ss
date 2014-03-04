@@ -1,7 +1,6 @@
 #lang scheme/base
 
 (require scheme/match
-         scheme/path
          parser-tools/lex)
 (require (for-syntax scheme/base))
 

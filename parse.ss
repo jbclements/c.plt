@@ -5,8 +5,7 @@
                      parser-tools/lex)
          (for-syntax "private/parser.ss")
          (for-syntax "ast.ss"))
-(require scheme/include
-         "private/parser.ss"
+(require "private/parser.ss"
          "ast.ss")
 
 (provide parse-program parse-declaration parse-statement parse-expression parse-type-expression)
