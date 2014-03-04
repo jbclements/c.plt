@@ -2,10 +2,11 @@
 (define name "c")
 (define blurb
   (list "Tools for manipulating C, including header extraction for the FFI."))
-(define scribblings '(("scribblings/c.scrbl" (multi-page))))
+;; doesn't exist, afaict:
+#;(define scribblings '(("scribblings/c.scrbl" (multi-page))))
 (define categories '(misc metaprogramming system devtools))
 (define version "0.4")
-(define primary-file "main.ss")
+(define primary-file "main.rkt")
 (define release-notes
   (list '(p "Bugfix: fixed " (a ([href "http://planet.plt-scheme.org/trac/ticket/202"]) "parser bug 202") ". "
             "The " (i "ParameterDeclaration") " production is now complete. This involved a subtle restriction of "
